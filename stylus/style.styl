@@ -1,0 +1,346 @@
+/*
+@import url('https://fonts.googleapis.com/css?family=Poppins')
+*/
+
+@import 'fonts.styl'
+
+/* Colors */
+head-line = #E5E5E5
+text = #303030
+hover = #F7A600
+title = #EC422B
+light = #ffffff
+bg-btn = #EC422B
+alt = #5C2D3E
+yellow = #FBAC37
+grey = #F7F7F7
+subtitle = #545454
+green = #235863
+footer-bg = #f3f3f3
+
+cursor-img = url(../img/icon/cursor.png), pointer
+/* Typografy */
+.page
+	max-width 1445px
+	font-family Poppins, sans-serif
+	color text
+	margin 0 auto
+.container
+	width 1042px
+.title-style
+	font-family PoppinsBold, sans-serif
+	font-size 48px
+	line-height 58px
+	color light
+.text-style
+	font-family Poppins, sans-serif
+	font-size 16px
+	line-height 26px
+	color text
+.text-subtitle
+	font-family Poppins, sans-serif
+	font-weight 500
+	line-height 36px
+	font-size 20px
+	color text
+	&-color
+		color subtitle
+.text-style-bold
+	font-family PoppinsBold, sans-serif
+	font-size 20px
+	line-height 27px
+	color text
+.nav-style	
+	opacity 0.5
+	padding 0
+	margin 5px 15px
+	border-bottom 4px solid transparent
+	cursor cursor-img
+	&:hover
+		opacity 1
+		color text
+		border-bottom 4px solid title
+.link-style:hover
+		cursor cursor-img
+		color hover
+		text-decoration none
+.wrap60
+	margin-top 60px	
+
+
+/* header */
+.header-line
+	background-color head-line
+.social
+	display: flex
+	align-items center	
+.icon-img
+	padding 5px	
+	
+.head-menu
+	margin 15px
+.nav-text-style
+	font-size 14px
+	line-height 25px
+	color text
+/* row-one */
+.row-one
+	background light url(../img/content/bg-image.png) no-repeat top right
+	width 100%
+.title-position
+	padding 100px 0
+.title
+	font-family PoppinsBold, sans-serif
+	font-size 80px
+	line-height 84px
+	color title
+.foot-img
+	margin-left 40px	
+.subtitle
+	font-size 32px
+	font-weight 500
+/* row-two */
+.row-two
+	margin 40px 0
+.title__box
+	font-family PoppinsBold, sans-serif
+	font-size 28px
+	line-height 38px
+	color title
+.description strong
+	font-family PoppinsBold, sans-serif
+/* row-three */
+.row-three
+	margin-bottom 60px
+.three-position
+	padding 40px
+.three-img
+	background light url(../img/content/cat.png) no-repeat top right
+	border: 2px solid #E8E8E8
+	box-sizing: border-box
+	border-radius: 12px
+	width 100%
+.text-three
+	font-family PoppinsBold, sans-serif
+	font-size 40px
+	line-height 48px
+	color text
+	&-red
+		color title
+	&-img
+		margin-top -12px
+		margin-left -14px
+		margin-right -18px
+		height: 51px
+.btn-color
+	background-color bg-btn
+	color light
+	font-weight bold
+	line-height 27px
+	font-size: 20px
+	margin-top 30px
+	
+/* row-four */
+.row-four
+	background light url(../img/content/cat-four.png) no-repeat top left
+	min-height 825px
+.four-left
+	margin-top 140px
+.four-right
+	margin-top 110px
+.text-green
+	color green
+
+/* row-five */
+.row-five
+	margin-top -70px
+	margin-bottom 60px
+.five-shadow
+	background light
+	box-shadow 0px 4px 15px rgba(0, 0, 0, 0.1)
+	border-radius 12px
+.five-position
+	padding 40px 0 0 50px
+.text-five-red
+	font-family Poppins, sans-serif
+	font-weight 600
+	line-height 17px
+	font-size 14px
+	letter-spacing 0.1em
+	color title
+	text-transform uppercase
+.five-title
+	font-family PoppinsBold, sans-serif
+	line-height: 49px
+	font-size: 36px
+	color: green
+.table-img
+	margin-left 13px
+	margin-bottom -24px		
+.feed-img
+	margin-top -315px
+	margin-left 90px
+
+/* row-six */
+.row-six
+	background light url(../img/content/bg-six.jpg) no-repeat top left
+	padding 60px 0 120px 0
+.nav-six
+	color light
+	&:hover
+		color light
+.text-four-six
+	margin-top 90px
+.text-underscore
+	border-bottom 17px solid yellow
+	display inline-block
+	line-height .4
+.text-yellow
+	color yellow
+.block
+	display flex
+	align-items center
+	position relative
+.block2
+	margin-left 100px
+.block3
+	margin-left 20px	
+.text-bangers
+	font-family Bangers, sans-serif
+	font-size 144px
+	padding 0 40px
+	color yellow
+	line-height 1
+.text-six
+	font-family Poppins, sans-serif
+	font-weight 500
+	font-size 20px
+	color light
+.line-dotted-right
+	position: absolute
+	right -20px
+	top 50%
+.line-dotted-left
+	position: absolute
+	left -100px
+	top 50%
+/* row-seven */
+.row-seven
+	padding 60px 0
+.nav-seven
+	margin 30px 0
+	&-text
+		font-family PoppinsBold, sans-serif
+		line-height 27px
+		font-size 20px
+		color #235863
+
+/* row-eight */
+.row-eight
+	background-color grey
+	padding 60px 0 80px 0
+.title-style-eight
+	color title
+.eight-right-box
+	padding 40px 0
+.text-underscore-red
+	border-bottom 10px solid rgba(236,66,43, .3)
+.text-style-eight
+	margin 10px
+	text-align right
+.line-dotted
+	position: absolute
+	left 300px
+	top 20%	
+/* row-nine */
+.row-nine
+	padding-top 80px
+.title-style-nine
+	color green
+.slider-wrap
+	display flex
+	justify-content center
+.slick-active {
+	outline: none;
+}			
+.box-flex
+	display flex
+	flex-direction column
+.project
+	margin 40px 0
+	padding 20px
+	width 322px
+	height 332px
+	&-title
+		font-family PoppinsBold, sans-serif
+		line-height 38px
+		font-size 28px
+		text-transform capitalize
+		color light
+	&-line
+		border-top: 2px solid yellow
+		width: 53.5px
+		margin-top auto
+	&-text
+		color light		
+	&-img1
+		background light url(../img/content/project1.svg) no-repeat top left
+	&-img2
+		background light url(../img/content/project2.svg) no-repeat top left
+	&-img3
+		background light url(../img/content/project3.svg) no-repeat top left
+.wave
+	margin-top: 148px
+.wave2
+	position relative
+.wave1
+	position absolute
+	right 0
+	bottom 0
+
+/* footer */
+.footer
+	padding-top 36px
+	background footer-bg
+.pat
+	margin-left: 27px	
+.footer-menu
+	margin 40px 0
+	&-title
+		font-family PoppinsBold, sans-serif
+		line-height 22px
+		font-size 16px
+		color green
+		margin 10px 0
+	&-text
+		font-family Poppins, sans-serif
+		font-size 13px
+		color text
+		padding 10px 0
+		//&:hover
+			//color hover
+			//cursor cursor-img
+
+
+
+
+
+/* media */
+/* media  .col-xl-  1200---px*/
+
+/* large  .col-lg-  992-1199px*/
+@media (max-width: 1199px) {
+}
+	
+
+/* medium .col-md-  768-991px*/
+@media (max-width: 991px) {
+}	
+
+/* small  .col-sm-  576-767px*/
+@media (max-width: 767px) {
+}	
+
+/* extra-small  .col-  ---575px*/
+ @media (max-width: 575px) {
+ }	
