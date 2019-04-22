@@ -1,0 +1,45 @@
+/* product */
+.product
+	display grid
+	grid-area product
+	grid-template-rows auto
+	&-imagebox
+		background light url(../img/content/table.png) no-repeat top right
+		border 0.2rem solid border
+		border-radius 1.2rem
+		box-shadow: 0 0.4rem 1.5rem rgba(0, 0, 0, 0.1)
+		margin-top -7rem
+		margin-bottom 5.2rem		
+	&-content
+		display grid
+		grid-template-columns 1fr 1fr
+		padding 1.4rem 4.8rem	
+	&-description
+		max-width 45rem
+	&-col
+		display: grid;
+		justify-content center
+	&-new
+		poppinsSemiBold()
+		font-size 1.4rem
+		line-height 1.7rem
+		letter-spacing 0.1rem
+		margin-top 2.6rem
+		text-transform uppercase
+	&__title
+		poppinsBold()
+		font-size 3.6rem
+		line-height 4.9rem
+		color #235863
+		margin-top 1.8rem
+	&__text
+		poppinsMedium()
+		font-size 2rem
+		line-height 3.6rem
+		color #545454
+		margin-top 1rem
+	&-img
+		margin-top -5rem
+	// 	margin-left 0.7rem
+
+

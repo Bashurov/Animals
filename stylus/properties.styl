@@ -1,0 +1,32 @@
+/* properties */
+.properties
+	display grid
+	grid-area properties
+	grid-template-rows auto
+	background light
+	&-content
+		display grid
+		grid-template-columns repeat(3, auto)
+		grid-template-rows minmax(220px, auto)
+		grid-column-gap 4rem
+		grid-template-areas " column-1 column-2 column-3"
+	&-column
+		&-1
+			grid-area column-1
+		&-2
+			grid-area column-2
+		&-3
+			grid-area column-3
+		&__title 
+			poppinsBold()
+			font-size 2.8rem
+			line-height 3.4rem
+			margin 1.2rem 0
+			color red_h3
+		&__text
+			poppinsRegular()
+			font-size 1.6rem
+			line-height 2.7rem
+	&__text_bold
+		poppinsBold()
+		

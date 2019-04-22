@@ -1,0 +1,40 @@
+/* alternative */
+.alternative
+	display grid
+	grid-area alternative
+	grid-template-rows auto
+	&-content
+		display grid
+		grid-template-columns 1fr
+		grid-template-rows minmax(26.8rem, auto)
+		align-items center
+		background light url(../img/content/Cat.png) no-repeat bottom right
+		border .2rem solid border
+		border-radius 1.2rem
+		box-sizing border-box
+	&__description
+		max-width 61.5rem
+		margin-left 4rem
+	&__text
+		poppinsBold()
+		font-size 4.2rem
+		line-height 4.8rem
+		padding-bottom 2.9rem
+.l__img
+			margin-bottom -0.8rem
+			margin-left -1.4rem
+			margin-right -1.9rem
+			height: 5.1rem		
+.btn__color
+	background-color red
+	color light
+	font-weight bold
+	//line-height 4.6rem
+	//margin 3rem 5rem
+	font-size 2.0rem
+	//margin-top 3.2rem
+	border none
+	border-radius 1rem
+	padding: 1.6rem 5.5rem
+	&:hover
+		color yellow

@@ -1,0 +1,39 @@
+/* footer */		
+.footer
+	display grid
+	grid-area footer
+	grid-template-rows auto
+	background: footer-bg
+	&-content
+		display grid
+		grid-template-rows auto auto
+		padding 2.2rem 0 5.6rem 0
+	&-logo
+		display flex
+		align-items center
+		&__pat
+			margin-left 2.7rem
+	&-navigation
+		display grid
+		grid-template-columns 0.8fr 1.2fr 1.3fr 1.2fr 0.8fr	
+		//grid-column-gap 30px
+	&-column
+		margin-top 4.2rem
+		&__title
+			poppinsBold()
+			font-size 1.6rem
+			line-height 2.2rem
+			color link
+			padding-bottom 1rem
+		&__link
+			poppinsRegular()
+			font-size 1.3rem
+			line-height 3.6rem
+			text-decoration none
+			color text
+			&:hover
+				color yellow
+				border-bottom 0.2rem solid red
+
+
+		

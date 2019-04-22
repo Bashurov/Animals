@@ -1,0 +1,26 @@
+/* pioneer */
+.pioneer
+	display grid
+	grid-area pioner
+	grid-template-rows auto
+	align-items start
+	&-content
+		display grid
+		grid-template-columns 1.3fr 1fr
+		grid-column-gap 10rem
+		padding 96px 0 8rem 0
+	&__text
+		poppinsMedium()
+		font-size 2rem
+		line-height 3.6rem
+		margin-bottom 3rem
+		&:first-child
+			margin-bottom 1.2rem
+	&__link
+		poppinsBold()
+		font-size 2rem
+		line-height 2.7rem
+		color link
+		text-decoration none
+		&:hover
+			color yellow

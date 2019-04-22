@@ -1,0 +1,82 @@
+/* Typografy */
+
+/* Colors */
+text = #303030
+grey = #F7F7F7
+light = #ffffff
+red = #EC422B
+red_h3 = #ED423B
+green = #68AC55
+border = #E8E8E8
+link = #235863
+yellow = #FBAC37
+footer-bg = #f3f3f3
+
+
+/* fonts */
+poppinsRegular()
+	font-family "PoppinsRegular", sans-serif
+poppinsMedium()
+	font-family "PoppinsMedium", sans-serif
+poppinsSemiBold()
+	font-family "PoppinsSemiBold", sans-serif
+poppinsBold()
+	font-family "PoppinsBold", sans-serif
+bangers()
+	font-family "Bangers", sans-serif
+
+html
+	font-size 10px
+
+.wrapper
+	display grid
+	grid-template-columns minmax(auto, 144.5rem)
+	grid-template-rows repeat(12, auto)
+	max-width 144.5rem
+	width 100%
+	margin 0 auto
+	grid-template-areas	"header"\
+											"menu"\
+											"animals"\
+											"properties"\
+											"alternative"\
+											"feed"\
+											"product"\
+											"nature"\
+											"pioner"\
+											"goal"\
+											"projects"\
+											"footer"
+.inner
+	min-width 32rem
+	max-width 104.4rem
+	width 100%
+	margin 0 auto	
+
+.nav
+	padding 3.5rem 0
+	&__list
+		display flex
+		flex-wrap wrap
+	&__item
+		margin-right 3.4rem
+	&__link
+		poppinsBold()
+		font-size 2rem
+		line-height 2.7rem
+		text-decoration none
+		color text
+		opacity 0.5
+		&:hover
+			opacity 1
+			border-bottom .4rem solid red
+	
+.text
+	&_red
+		color red
+	&_green
+		color green
+	&_yellow
+		color yellow
+	
+	

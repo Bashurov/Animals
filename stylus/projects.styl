@@ -1,0 +1,76 @@
+/* projects */		
+.projects
+	display grid
+	grid-area projects
+	grid-template-rows auto
+	background-color light
+	&-content
+		display grid
+		grid-template-rows auto auto auto
+	&-headline
+		text-align center
+		&__title
+			poppinsBold()
+			color link
+			font-size 4.8rem
+			line-height 5.8rem
+			margin-top 8.5rem
+		&__text
+			poppinsMedium()
+			font-size 2rem
+			line-height 3.4rem
+			margin-top 1.4rem
+	&-wave
+		position relative
+		&__img
+			position absolute
+			bottom 0
+			&:last-child
+				right 0
+				z-index 3
+			&:first-child
+				left 0
+	
+.slideShow
+	margin 4rem 0 26rem 0
+	display grid
+.slider
+	display flex
+	justify-content center
+	position relative
+	&__inner
+		display flex
+		flex-direction column	
+		height 29.2rem
+		width 28.2rem
+		padding 2rem 3.3rem
+	&__title
+		font-family PoppinsBold, sans-serif
+		line-height 3.8rem
+		font-size 2.8rem
+		text-transform capitalize
+		color light
+	&__line
+		border-top: .2rem solid yellow
+		width: 5.35rem
+		margin-top auto
+	&__text
+		poppinsRegular()
+		font-size 1.6rem
+		line-height 2.6rem
+		color light
+		margin-top 1.85rem
+	&-img1
+		background light url(../img/content/slider1.png) no-repeat center
+	&-img2
+		background light url(../img/content/slider2.png) no-repeat center
+	&-img3
+		background light url(../img/content/slider3.png) no-repeat center
+.slick-active
+	outline none
+.slick-dotted.slick-slider
+	margin-bottom 14rem
+.slick-dots
+	bottom -5rem
+.slick-initialized .slick-slide
+	display grid

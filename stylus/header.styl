@@ -1,0 +1,50 @@
+/* header */
+.header
+	display grid
+	grid-area header
+	grid-template-columns repeat(2, auto)
+	grid-column-gap 1rem
+	grid-template-areas "social location"
+	align-items center
+	background-color grey
+	
+	
+.social
+	grid-area social
+	justify-self start
+	padding 0 4rem
+	&__link
+		margin-right 0.2rem
+		
+.location
+	grid-area location
+	justify-self end
+	&__list
+		display flex
+		flex-wrap wrap
+		flex-direction row
+	&__link
+		poppinsMedium()
+		font-size 1.4rem
+		line-height 3.5rem
+		color text
+		letter-spacing .1rem;
+		padding-right 3.3rem
+		text-decoration none
+		&:hover
+			color yellow
+	&__img
+			padding 0 0.4rem
+.icon
+		margin-bottom -.3rem
+
+
+
+
+		
+		
+		
+	
+	
+
+	

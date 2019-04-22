@@ -1,0 +1,61 @@
+/* goal */
+.goal
+	display grid
+	grid-area goal
+	grid-template-rows auto
+	background-color grey
+	&-content
+		display grid
+		grid-template-rows auto auto
+		padding-top 2.2rem
+		padding-bottom 8rem
+	&-description
+		display grid
+		grid-template-columns 1fr 1fr
+.headline
+	&__title
+		poppinsBold()
+		color red
+		font-size 4.8rem
+		line-height 5.8rem
+		padding-top 3.6rem
+		padding-bottom 2rem
+		max-width 50rem
+	&__text			
+		poppinsRegular()
+		font-size 1.6rem
+		line-height 2.6rem
+		max-width 43.5rem
+		//margin-bottom 60px
+		&_bold
+			max-width 28rem
+			poppinsMedium()
+			font-size 2rem
+			line-height 3.6rem
+			margin-top 6.5rem
+		&_underline
+			border-bottom 1rem solid rgba(236,66,43, .3)
+			display inline-block
+			line-height 0.4rem
+.circle
+	&__block
+		display flex
+		align-items center
+		position relative
+		&:last-child
+			max-width 30rem
+			text-align right
+	&__img
+		margin 3.5rem 3rem
+		flex-shrink 0
+		&:first-child
+			margin-left 24.5rem
+	&__text
+		poppinsRegular()
+		font-size 1.6rem
+		line-height 2.6rem
+		max-width 43.5rem
+	&__dotted
+		position: absolute
+		left 29rem
+		top 80%

@@ -1,0 +1,110 @@
+/* media */
+
+/* media  .col-xl-  1200---px*/
+// @media (min-width: 1200px)
+ 
+/* large  .col-lg-  992-1199px*/
+// @media (max-width: 1199px) 
+
+/* medium .col-md-  768-991px*/
+@media (max-width: 991px) 
+	/* Typografy */	
+	.inner
+		width calc(100% - 4rem)
+	/* animals */
+	.animals-content__title 
+		padding-bottom 5.5rem
+	/* alternative */
+	.alternative-content
+		margin-top 2.5rem
+	/* feed */
+	.feed
+		&-content
+			grid-template-columns 1fr
+			grid-template-rows repeat(2, auto)
+			&__title
+				margin-top 4rem
+				max-width none
+			&__text
+				margin-top 4rem
+	/* product */
+	.product
+		&-imagebox
+			background light
+		&-content
+			grid-template-columns 1fr
+			grid-template-rows repeat(2, auto)
+			padding 4rem
+		&-description
+			max-width none
+		&-col
+			grid-row-start 1
+			grid-row-end 2
+		&-img
+			margin-top 0
+	/* nature */
+	.nature
+		&-content
+			max-width none
+		&__title
+			text-align center
+			line-height 6rem
+			margin-top 0
+		&-description
+			display grid
+			justify-items center
+		.line-dotted__right
+			right -20%
+	/* pioneer */
+	.pioneer
+		&-content
+			grid-template-columns 1fr
+			grid-template-rows repeat(2, auto)
+			padding 4rem
+		&-img
+			grid-row-start 1
+			grid-row-end 2
+			text-align center	
+			margin-bottom 2rem	
+	/* goal */
+	.goal
+		&-content
+			padding-bottom 6.5rem
+		&-description
+			grid-template-columns 1fr
+			grid-template-rows repeat(2, auto)
+		.headline
+			&__title, &__text
+				max-width none	
+			&__text_bold
+				margin-top 3.5rem
+	.circle
+		display none
+	/* footer */
+	.footer
+		&-content
+			padding 2.3rem 0
+		&-logo
+			justify-content center
+		&-navigation
+			display none
+
+/* small  .col-sm-  576-767px*/
+@media (max-width: 767px) 
+	/* properties */
+	.properties
+		&-content
+			grid-template-columns 1fr
+			grid-template-rows repeat(3, auto)
+			grid-row-gap 4rem
+			grid-template-areas "column-1"\
+													"column-2"\
+													"column-3"
+
+/* extra-small  .col-  ---575px */
+@media (max-width: 575px)
+	/* animals */
+	.animals-content__title
+		font-size 6rem
+
+
